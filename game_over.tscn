@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfvjxw5rkwn7k"]
+
+[ext_resource type="Script" path="res://Game Over.gd" id="1_ngmd8"]
+
+[node name="Game Over" type="CanvasLayer"]
+script = ExtResource("1_ngmd8")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -150.0
+offset_top = -10.0
+offset_right = 149.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 90
+text = "Time's Up"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Retry" type="Button" parent="."]
+visible = false
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 299.0
+offset_top = 892.0
+offset_right = -312.0
+offset_bottom = -1004.0
+theme_override_font_sizes/font_size = 70
+text = "Retry"
+
+[connection signal="pressed" from="Retry" to="." method="_on_button_pressed"]

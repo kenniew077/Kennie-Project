@@ -1,0 +1,229 @@
+[gd_scene load_steps=50 format=3 uid="uid://dk6gfvcopbep4"]
+
+[ext_resource type="Script" path="res://scenes/main character.gd" id="1_gbdmp"]
+[ext_resource type="Texture2D" uid="uid://cxhlwxmcnh4lt" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/1.png" id="1_m23od"]
+[ext_resource type="Texture2D" uid="uid://dqriek71c1we3" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/2.png" id="3_7nfmc"]
+[ext_resource type="Texture2D" uid="uid://bwodo0djpcfa3" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/3.png" id="4_277vc"]
+[ext_resource type="Texture2D" uid="uid://bn04vcbkgxosk" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/4.png" id="5_qw6fu"]
+[ext_resource type="Texture2D" uid="uid://by6x7vu522ecm" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/5.png" id="6_kfpo5"]
+[ext_resource type="Texture2D" uid="uid://cn854ldg0276b" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/6.png" id="7_1qts7"]
+[ext_resource type="Texture2D" uid="uid://bo4mgs7jsaoag" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/7.png" id="8_wlwag"]
+[ext_resource type="Texture2D" uid="uid://cleigs1p85t37" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/8.png" id="9_4t7qa"]
+[ext_resource type="Texture2D" uid="uid://bbifkm8cupvrh" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/9.png" id="10_yf735"]
+[ext_resource type="Texture2D" uid="uid://bjiqawc10hh7q" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/10.png" id="11_554pr"]
+[ext_resource type="Texture2D" uid="uid://dk3urtw1qek1q" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/11.png" id="12_55cfk"]
+[ext_resource type="Texture2D" uid="uid://cu1cdbi2t16if" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/12.png" id="13_4ua6a"]
+[ext_resource type="Texture2D" uid="uid://cwlmad2v8ddf8" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/13.png" id="14_ll7jt"]
+[ext_resource type="Texture2D" uid="uid://b7uqw2luuu5uc" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/14.png" id="15_gnexq"]
+[ext_resource type="Texture2D" uid="uid://i0btrikcm1fc" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/15.png" id="16_0ybo6"]
+[ext_resource type="Texture2D" uid="uid://2vda6g73jbkv" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/16.png" id="17_0ja1k"]
+[ext_resource type="Texture2D" uid="uid://cpkjmgdbv1xad" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/17.png" id="18_nohw7"]
+[ext_resource type="Texture2D" uid="uid://c5lg2rv7l67kv" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/18.png" id="19_o5fy3"]
+[ext_resource type="Texture2D" uid="uid://dbg174ijof8ty" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/19.png" id="20_qi1xm"]
+[ext_resource type="Texture2D" uid="uid://775kqi0esm3k" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/20.png" id="21_c7r73"]
+[ext_resource type="Texture2D" uid="uid://dmybgmkqgwedf" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/21.png" id="22_2owoj"]
+[ext_resource type="Texture2D" uid="uid://dcilw322fpbiq" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/22.png" id="23_1bi4y"]
+[ext_resource type="Texture2D" uid="uid://bixltaug7lqpo" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/23.png" id="24_n1mlr"]
+[ext_resource type="Texture2D" uid="uid://bgejt0idw4jxg" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/24.png" id="25_aragn"]
+[ext_resource type="Texture2D" uid="uid://cvc0qvklgbh64" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/25.png" id="26_tdyqx"]
+[ext_resource type="Texture2D" uid="uid://b86t6jfg2ppkl" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/1-Idle/26.png" id="27_jy1aw"]
+[ext_resource type="Texture2D" uid="uid://bfefxhophe404" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/5-Fall/1.png" id="28_53eu1"]
+[ext_resource type="Texture2D" uid="uid://cf2go6mqo47mn" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/5-Fall/2.png" id="29_14ubg"]
+[ext_resource type="Texture2D" uid="uid://bgrfwstx6t03" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/4-Jump/1.png" id="30_3sx5o"]
+[ext_resource type="Texture2D" uid="uid://cik8cnh7wjtlh" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/4-Jump/2.png" id="31_scmhc"]
+[ext_resource type="Texture2D" uid="uid://c0ae5xxg4qydw" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/4-Jump/3.png" id="32_tphe3"]
+[ext_resource type="Texture2D" uid="uid://bhwp5nkbgqxrj" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/4-Jump/4.png" id="33_03jvi"]
+[ext_resource type="Texture2D" uid="uid://busy6ndnnjbjc" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/1.png" id="34_olbge"]
+[ext_resource type="Texture2D" uid="uid://d13qurgsct8tj" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/2.png" id="35_j2hbv"]
+[ext_resource type="Texture2D" uid="uid://d3y0841x4rsxw" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/3.png" id="36_eo8go"]
+[ext_resource type="Texture2D" uid="uid://cu40fyf545a5p" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/4.png" id="37_anqvk"]
+[ext_resource type="Texture2D" uid="uid://2bid0mbf5tlb" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/5.png" id="38_jww3q"]
+[ext_resource type="Texture2D" uid="uid://bf4tpbnfa7nam" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/6.png" id="39_6sntx"]
+[ext_resource type="Texture2D" uid="uid://ccbb33db2iu1o" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/7.png" id="40_ddrlh"]
+[ext_resource type="Texture2D" uid="uid://cbqun06ettaxp" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/8.png" id="41_cy3ut"]
+[ext_resource type="Texture2D" uid="uid://bsnnhmcsda1wt" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/9.png" id="42_7ljcs"]
+[ext_resource type="Texture2D" uid="uid://cohwxvqv4hv3s" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/10.png" id="43_ne28o"]
+[ext_resource type="Texture2D" uid="uid://bsviv0aff7hcp" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/11.png" id="44_3g0vy"]
+[ext_resource type="Texture2D" uid="uid://dm2kr3ylfrpjl" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/12.png" id="45_iywv4"]
+[ext_resource type="Texture2D" uid="uid://cax0cgoch5yoe" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/13.png" id="46_r32a7"]
+[ext_resource type="Texture2D" uid="uid://s4h600e2q54p" path="res://Pirate Bomb/Sprites/1-Player-Bomb Guy/2-Run/14.png" id="47_ytp7e"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n6gqv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_m23od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7nfmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_277vc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_qw6fu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_kfpo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1qts7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wlwag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_4t7qa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_yf735")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_554pr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_55cfk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_4ua6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ll7jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_gnexq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0ybo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_0ja1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_nohw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_o5fy3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_qi1xm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_c7r73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2owoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_1bi4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_n1mlr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_aragn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_tdyqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_jy1aw")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_53eu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_14ubg")
+}],
+"loop": true,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_3sx5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_scmhc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_tphe3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_03jvi")
+}],
+"loop": true,
+"name": &"jumping",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_olbge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_j2hbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_eo8go")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_anqvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_jww3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_6sntx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ddrlh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_cy3ut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_7ljcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_ne28o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_3g0vy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_iywv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_r32a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_ytp7e")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fthn0"]
+size = Vector2(41.5, 54)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_gbdmp")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-3.74999, 106.25)
+scale = Vector2(0.853448, 0.939657)
+sprite_frames = SubResource("SpriteFrames_n6gqv")
+animation = &"fall"
+autoplay = "default"
+frame_progress = 0.355878
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-5.75, 105)
+shape = SubResource("RectangleShape2D_fthn0")
