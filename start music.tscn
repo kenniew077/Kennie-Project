@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc1rmn5fhmpw1"]
+
+[ext_resource type="AudioStream" uid="uid://ce6swtpaasaci" path="res://b62f-cca4-4425-8e99-f88d279bb8b0.mp3" id="1_a522u"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_a522u")
+autoplay = true

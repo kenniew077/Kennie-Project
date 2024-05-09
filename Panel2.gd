@@ -19,7 +19,7 @@ func _process(delta) -> void:
 	if seconds >= 20:
 		stop()
 		get_tree(). change_scene_to_file("res://game_over.tscn")
-		
+
 		
 func stop()-> void:
 	set_process(false)

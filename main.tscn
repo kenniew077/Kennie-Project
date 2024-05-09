@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://cf0cua1alsdhk"]
+[gd_scene load_steps=18 format=3 uid="uid://cf0cua1alsdhk"]
 
 [ext_resource type="Script" path="res://Game Manager.gd" id="1_7tk5j"]
 [ext_resource type="Texture2D" uid="uid://3qi3lfrlpk0o" path="res://12125210.png" id="1_p66ti"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://1trdehismgbk" path="res://Free/Terrain/Terrain (16x16).png" id="7_jjcg0"]
 [ext_resource type="PackedScene" uid="uid://irnbu1t6p3yk" path="res://scenes/strawberry.tscn" id="9_b47af"]
 [ext_resource type="Script" path="res://Panel2.gd" id="9_huq4i"]
+[ext_resource type="PackedScene" uid="uid://bc1rmn5fhmpw1" path="res://start music.tscn" id="11_xecj1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nx8xo"]
 texture = ExtResource("2_28t61")
@@ -2104,3 +2105,6 @@ scale = Vector2(2, 2)
 [node name="Strawberry19" parent="." instance=ExtResource("9_b47af")]
 position = Vector2(1322, -418)
 scale = Vector2(2, 2)
+
+[node name="AudioStreamPlayer2D" parent="." instance=ExtResource("11_xecj1")]
+visible = false

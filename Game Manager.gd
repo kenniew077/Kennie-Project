@@ -6,3 +6,4 @@ func add_point():
 	points += 1
 	print(points)
 	points_label.text = str(points)
+	Score.score += 1
